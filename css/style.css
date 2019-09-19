@@ -1,0 +1,63 @@
+body {
+    background-color: antiquewhite
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px
+}
+.shirt {
+    height: 500px;
+    width: 500px;
+    top: 5px;
+    left: 5px;
+    background-size: cover;
+    position: relative;
+}
+.parent{
+    height: 100%;
+    width: 100%;
+}
+.parent img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.second{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: none;
+    top: 0;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.second img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.pattern {
+    display: grid;
+    grid-template-columns: 120px 120px 120px 120px;
+    grid-gap: 7px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.hold {
+    border: solid #ccc 4px;
+}
+
+.hovered {
+    background: #f4f4f4;
+    border-style: dashed;
+}
+
+.invisible {
+    display: none;
+}
